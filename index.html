@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tictac.css">
+    <script src="tictac.js"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body onload=startGame()>
+    <h1 class="text">Game of Tic-Tac-Toe</h1>
+    <div id="message"></div><br><br>
+
+    <div class="container">
+
+    <button class="square" id="b1" onclick="nextMove(this)"></button>
+    <button class="square" id="b2" onclick="nextMove(this)"></button>
+    <button class="square" id="b3" onclick="nextMove(this)"></button>
+    <button class="square" id="b4" onclick="nextMove(this)"></button>
+    <button class="square" id="b5" onclick="nextMove(this)"></button>
+    <button class="square" id="b6" onclick="nextMove(this)"></button>
+    <button class="square" id="b7" onclick="nextMove(this)"></button>
+    <button class="square" id="b8" onclick="nextMove(this)"></button>
+    <button class="square" id="b9" onclick="nextMove(this)"></button>
+</div>
+
+<button id="start" onclick="startGame()">Start Game</button>
+</body>
+</html>
